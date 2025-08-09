@@ -1,105 +1,81 @@
 import os
+import re
 import pandas as pd
 from dbfread import DBF
-import re
 
-# Use current folder as base
-base = "."
+# Paths
+project_path = r"C:\Users\hasee\OneDrive\Desktop\ALMEHBOOB-FOOD"
+output_schema_file = os.path.join(project_path, "foxpro_schema.csv")
+output_samples_folder = project_path
 
-def mask_value(val):
-    """Mask CNIC, phone, email, otherwise return as-is."""
-    if not isinstance(val, str):
-        return val
+# Patterns to detect sensitive data
+cnic_pattern = re.compile(r"\b\d{5}-\d{7}-\d\b")
+phone_pattern = re.compile(r"\b(?:\+92|0)\d{9,10}\b")
+name_keywords = ["name", "customer", "client"]  # columns that may have names
+address_keywords = ["address", "addr", "location"]
 
-    # CNIC pattern (Pakistan)
-    if re.match(r"^\d{5}-\d{7}-\d$", val):
-        return val[:6] + "******-" + val[-1]
+# Store schema
+schema_records = []
 
-    # Phone numbers (7+ digits)
-    if re.match(r"^\+?\d[\d\s-]{6,}$", val):
-        digits = re.sub(r"\D", "", val)
-        if len(digits) >= 7:
-            return digits[:4] + "*" * (len(digits) - 4)
+print("🔍 Starting FoxPro DBF schema extraction and masking...\n")
 
-    # Email addresses
-    if "@" in val:
-        parts = val.split("@")
-        if len(parts[0]) > 3:
-            return parts[0][:3] + "***@" + parts[1]
-        else:
-            return "***@" + parts[1]
+# Process each DBF
+for root, _, files in os.walk(project_path):
+    for file in files:
+        if file.lower().endswith(".dbf"):
+            dbf_path = os.path.join(root, file)
+            table_name = os.path.basename(dbf_path)
+            print(f"📂 Processing table: {table_name}")
 
-    return val
+            try:
+                table = DBF(dbf_path, ignore_missing_memofile=True)
 
-dbf_files = []
-for root, dirs, files in os.walk(base):
-    for f in files:
-        if f.lower().endswith(".dbf"):
-            dbf_files.append(os.path.join(root, f))
+                # Schema info
+                for field in table.fields:
+                    schema_records.append({
+                        "table": table_name,
+                        "field_name": field.name,
+                        "field_type": field.type,
+                        "field_length": field.length,
+                        "field_decimal_count": field.decimal_count
+                    })
 
-print(f"Found {len(dbf_files)} DBF files.")
+                # Load sample data
+                df = pd.DataFrame(iter(table))
+                print(f"   ➡ Loaded {len(df)} records")
 
-schemas = []
-samples = {}
+                # Mask sensitive fields
+                for col in df.columns:
+                    col_lower = col.lower()
 
-for fp in dbf_files:
-    rel = os.path.relpath(fp, base)
-    print("Processing:", rel)
-    try:
-        table = DBF(fp, encoding="latin1", ignore_missing_memofile=True)
-        fields = [(fld.name, fld.type, fld.length, getattr(fld, "decimal_count", None)) for fld in table.fields]
-        schemas.append({"table": rel, "fields": fields})
+                    # Mask CNIC and phone numbers
+                    df[col] = df[col].astype(str).apply(
+                        lambda x: cnic_pattern.sub("XXXXX-XXXXXXX-X", x)
+                    )
+                    df[col] = df[col].apply(
+                        lambda x: phone_pattern.sub("0XXXXXXXXXX", x)
+                    )
 
-        # First 5 rows only, with masking
-        sample_rows = []
-        for i, rec in enumerate(table):
-            if i >= 5:
-                break
-            row = {}
-            for k, v in rec.items():
-                if v is None:
-                    row[k] = ""
-                else:
-                    row[k] = mask_value(str(v))
-            sample_rows.append(row)
-        samples[rel] = sample_rows
-    except Exception as e:
-        print("  ERROR reading table:", e)
-        schemas.append({"table": rel, "fields": f"Error: {e}"})
-        samples[rel] = []
+                    # Mask names
+                    if any(keyword in col_lower for keyword in name_keywords):
+                        df[col] = "Name Hidden"
+
+                    # Mask addresses
+                    if any(keyword in col_lower for keyword in address_keywords):
+                        df[col] = "Address Hidden"
+
+                # Save masked sample
+                sample_file_path = os.path.join(
+                    output_samples_folder,
+                    f"sample_{table_name}.csv"
+                )
+                df.head(20).to_csv(sample_file_path, index=False, encoding="utf-8-sig")
+                print(f"   ✅ Sample saved: {sample_file_path}")
+
+            except Exception as e:
+                print(f"   ❌ Error reading {table_name}: {e}")
 
 # Save schema
-schema_rows = []
-for s in schemas:
-    if isinstance(s["fields"], list):
-        for fld in s["fields"]:
-            schema_rows.append({
-                "table": s["table"],
-                "field_name": fld[0],
-                "type": fld[1],
-                "length": fld[2],
-                "decimals": fld[3]
-            })
-    else:
-        schema_rows.append({
-            "table": s["table"],
-            "field_name": s["fields"],
-            "type": "",
-            "length": "",
-            "decimals": ""
-        })
-
-schema_df = pd.DataFrame(schema_rows)
-schema_out = os.path.join(".", "foxpro_schema.csv")
-schema_df.to_csv(schema_out, index=False, encoding="utf-8-sig")
-print("Wrote schema to", schema_out)
-
-# Save masked samples
-for table, rows in samples.items():
-    safe_name = table.replace(os.sep, "_").replace("/", "_")
-    if rows:
-        out_csv = os.path.join(".", f"sample_{safe_name}.csv")
-        pd.DataFrame(rows).to_csv(out_csv, index=False, encoding="utf-8-sig")
-        print("Wrote sample ->", out_csv)
-
-print("✅ Done! All sensitive data masked in sample files.")
+pd.DataFrame(schema_records).to_csv(output_schema_file, index=False, encoding="utf-8-sig")
+print(f"\n✅ Extraction complete.\nSchema saved to: {output_schema_file}")
+print("📁 Sample CSV files saved in the project folder.")
