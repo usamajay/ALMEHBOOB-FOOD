@@ -47,5 +47,5 @@ We used a Python script (`extract_dbf_schema.py`) with `dbfread` and `pandas` to
 
 ### 📧 Contact
 For migration inquiries, contact:
-**Owner:** _Hasee_  
+**Owner:** _Usama_  
 **Location:** Pakistan
