@@ -1,0 +1,72 @@
+
+Structure for table:    D:\CONTRACT\2023\RICE-PROJECT\BILL.DBF
+Number of data records: 375     
+Date of last update:    11/09/2023
+Memo file block size:   64
+Code Page:              1252    
+Field  Field Name      Type                Width    Dec   Index   Collate Nulls    Next    Step
+    1  DEPT            Character               1                             No
+    2  DATE            Date                    8            Asc   Machine    No
+    3  PCODE           Character              10                             No
+    4  SPO             Character               5                             No
+    5  PARTICULAR      Character              80                             No
+    6  TYPE            Character               1                             No
+    7  VNO             Numeric                 6            Asc   Machine    No
+    8  CCODE           Numeric                10                             No
+    9  GCODE           Numeric                10                             No
+   10  CODE            Numeric                10                             No
+   11  RECENO          Numeric                10                             No
+   12  LOTNO           Numeric                10                             No
+   13  INVOICENO       Numeric                10            Asc   Machine    No
+   14  BILLNO          Numeric                10                             No
+   15  CELLNO          Character              15                             No
+   16  VEHNO           Character              15                             No
+   17  CNO             Character              15                             No
+   18  CNO1            Character              15                             No
+   19  BUILTYNO        Numeric                10                             No
+   20  FREIGHT         Numeric                10                             No
+   21  TRUCKADA        Character              40                             No
+   22  UNIT            Character              10                             No
+   23  RATE            Numeric                10      2                      No
+   24  CASE            Numeric                10                             No
+   25  FILL            Numeric                10      3                      No
+   26  GQTY            Numeric                10      2                      No
+   27  LESS            Numeric                10      2                      No
+   28  OTHERS          Numeric                10                             No
+   29  LABOUR          Numeric                10                             No
+   30  BROKERY         Numeric                10      2                      No
+   31  ABARDANA        Numeric                10                             No
+   32  ABROKERY        Numeric                10                             No
+   33  ALABOUR         Numeric                10                             No
+   34  ASTICHING       Numeric                10                             No
+   35  AEXTRALOAD      Numeric                10                             No
+   36  ASOTTRI         Numeric                10                             No
+   37  AINNERLAB       Numeric                10                             No
+   38  AMUNSHYANA      Numeric                10                             No
+   39  STICHING        Numeric                10                             No
+   40  QTY             Numeric                10      2                      No
+   41  SAMOUNT         Numeric                10      2                      No
+   42  DISC            Numeric                10      2                      No
+   43  SDISCOUNT       Numeric                10                             No
+   44  DISCOUNT        Numeric                10      2                      No
+   45  PVALUE          Numeric                10      2                      No
+   46  RETURN          Numeric                10      2                      No
+   47  DEBIT           Numeric                10      2                      No
+   48  CREDIT          Numeric                10      2                      No
+   49  BALANCE         Numeric                10      2                      No
+   50  LBALANCE        Numeric                10                             No
+   51  OPDR            Numeric                10                             No
+   52  OPCR            Numeric                10                             No
+   53  CDR             Numeric                10                             No
+   54  CCR             Numeric                10                             No
+   55  CBL             Numeric                10                             No
+   56  LNAME           Character              60                             No
+   57  BSCODE          Character               5                             No
+   58  PLCODE          Character               5                             No
+   59  CFCODE          Character               5                             No
+   60  PDATE           Date                    8                             No
+   61  REMARKS         Character              40                             No
+   62  DETAILS         Memo                    4                             No
+   63  LCODE           Numeric                10                             No
+   64  LOCATION        Character              30                             No
+** Total **                                  809

@@ -1,0 +1,4 @@
+repo form CODE;
+    OBJECT TYPE 5 NOPAGEEJECT NORESET TO FILE "d:\Test.pdf"
+*!*	REPORT FORM LOCFILE(_Samples + "\Solution\Reports\Percent.frx") ;
+*!*	    OBJECT TYPE 5 PREVIEW

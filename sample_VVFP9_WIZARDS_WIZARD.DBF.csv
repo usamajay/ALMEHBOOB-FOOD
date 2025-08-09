@@ -1,0 +1,6 @@
+﻿NAME,DESCRIPT,BITMAP,TYPE,PROGRAM,CLASSLIB,CLASSNAME,PARMS
+Form Wizard,Creates a data-entry form from a single table.,                                             ,FORM,WZFORM.APP,,,FORM
+Documenting Wizard,Formats and analyzes your source code.,                                             ,FOXDOC,WZFOXDOC.APP,,,
+Import Wizard,Brings data from other applications into new or existing Visual FoxPro tables.,                                             ,IMPORT,WZIMPORT.APP,,,
+One-to-Many Form Wizard,"Creates a data-entry form from two related tables, displaying fields from the child table in a grid on the form.",                                             ,FORM,WZFORM.APP,,,1MANY
+Report Wizard,Creates a formatted report from a single table.,                                             ,REPORT,WZREPORT.APP,,,REPORT

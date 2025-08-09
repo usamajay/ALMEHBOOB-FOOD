@@ -1,0 +1,6 @@
+﻿PROPERTY,CVALUE,NVALUE,LVALUE,_NullFlags
+cLanguage,ENGLISH,0,,b'\x00'
+lSaveToFile,,0,True,b'\x00'
+lSendToEmail,,0,True,b'\x00'
+lPrintVisible,,0,True,b'\x00'
+lShowCopies,,0,True,b'\x00'

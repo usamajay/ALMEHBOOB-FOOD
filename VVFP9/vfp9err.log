@@ -1,0 +1,340 @@
+
+
+Fatal error: Exception code=C0000006 @ 29/04/2010 10:49:45 AM. Error log file: Y:\vfp9\vfp9err.log
+	Called from -  form1.command1.click line 10  {y:\qtml2009\itrans.sct y:\qtml2009\itrans.sct}
+
+
+Fatal error: Exception code=C0000006 @ 29/04/2010 10:50:26 AM. Error log file: Y:\vfp9\vfp9err.log
+	Called from -  form1.command1.click line 10  {y:\qtml2009\itrans.sct y:\qtml2009\itrans.sct}
+
+
+Fatal error: Exception code=C0000006 @ 29/04/2010 12:56:31 PM. Error log file: Y:\vfp9\vfp9err.log
+
+
+Fatal error: Exception code=C0000006 @ 29/04/2010 12:58:33 PM. Error log file: Y:\vfp9\vfp9err.log
+
+
+Fatal error: Exception code=C0000005 @ 07/06/2010 02:26:35 AM. Error log file: Y:\vfp9\vfp9err.log
+	Called from -  choice1 line 6  {Y:\QTML2009\namss.prg namss.fxp}
+	Called from -  form1.tspdp1.lostfocus line 11  {y:\qtml2009\trans.sct y:\qtml2009\trans.sct}
+
+
+Fatal error: Exception code=C0000006 @ 07/06/2010 05:28:03 AM. Error log file: Y:\vfp9\vfp9err.log
+	Called from -  form1.command21.click line 110  {y:\qtml2009\sreport.sct y:\qtml2009\sreport.sct}
+
+
+Fatal error: Exception code=C0000006 @ 07/06/2010 05:28:44 AM. Error log file: Y:\vfp9\vfp9err.log
+	Called from -  form1.command21.click line 110  {y:\qtml2009\sreport.sct y:\qtml2009\sreport.sct}
+
+
+Fatal error: Exception code=C0000006 @ 11/06/2010 09:06:47 PM. Error log file: Y:\vfp9\vfp9err.log
+	Called from -  form1.command14.click line 45  {y:\qtml2009\sreport.sct y:\qtml2009\sreport.sct}
+
+
+Fatal error: Exception code=C0000006 @ 11/06/2010 09:07:28 PM. Error log file: Y:\vfp9\vfp9err.log
+	Called from -  form1.command14.click line 45  {y:\qtml2009\sreport.sct y:\qtml2009\sreport.sct}
+
+
+Fatal error: Exception code=C0000006 @ 28/06/2010 09:32:29 PM. Error log file: Y:\vfp9\vfp9err.log
+	Called from -  form1.pcode1.lostfocus line 14  {y:\qtml2009\itrans.sct y:\qtml2009\itrans.sct}
+
+
+Fatal error: Exception code=C0000006 @ 28/06/2010 09:33:10 PM. Error log file: Y:\vfp9\vfp9err.log
+	Called from -  form1.pcode1.lostfocus line 14  {y:\qtml2009\itrans.sct y:\qtml2009\itrans.sct}
+
+
+Fatal error: Exception code=C0000005 @ 08/30/10 11:06:49 AM. Error log file: I:\VFP9\vfp9err.log
+
+
+Fatal error: Exception code=C0000005 @ 16/12/2014 05:39:09 PM. Error log file: D:\VFP9\vfp9err.log
+	Called from -  form1.mlc1.lostfocus line 79  {g:\contract\2014\chtrader(f)\saleform.sct g:\contract\2014\chtrader(f)\saleform.sct}
+
+
+Fatal error: Exception code=C0000094 @ 16/12/2014 05:42:44 PM. Error log file: D:\VFP9\vfp9err.log
+	Called from -  form1.mlc1.lostfocus line 7  {g:\contract\2014\chtrader(f)\saleform.sct g:\contract\2014\chtrader(f)\saleform.sct}
+
+
+Fatal error: Exception code=C0000094 @ 16/12/2014 05:46:38 PM. Error log file: D:\VFP9\vfp9err.log
+	Called from -  form1.mlc1.lostfocus line 9  {g:\contract\2013\alirice\factory\paddy.sct g:\contract\2013\alirice\factory\paddy.sct}
+
+
+Fatal error: Exception code=C0000094 @ 16/12/2014 05:50:11 PM. Error log file: D:\VFP9\vfp9err.log
+	Called from -  form1.mlc1.lostfocus line 7  {g:\contract\2014\chtrader(f)\saleform.sct g:\contract\2014\chtrader(f)\saleform.sct}
+
+
+Fatal error: Exception code=C0000094 @ 16/12/2014 06:15:14 PM. Error log file: D:\VFP9\vfp9err.log
+	Called from -  form1.mlc1.lostfocus line 7  {g:\contract\2014\chtrader(f)\saleform.sct g:\contract\2014\chtrader(f)\saleform.sct}
+
+
+Fatal error: Exception code=C0000005 @ 16/12/2014 06:20:20 PM. Error log file: D:\VFP9\vfp9err.log
+	Called from -  form1.mlc1.lostfocus line 79  {g:\contract\2014\chtrader(f)\saleform.sct g:\contract\2014\chtrader(f)\saleform.sct}
+
+
+Fatal error: Exception code=C0000005 @ 01/26/15 12:14:45 PM. Error log file: D:\VFP9\vfp9err.log
+
+
+Fatal error: Exception code=C0000005 @ 01/26/15 12:32:53 PM. Error log file: D:\VFP9\vfp9err.log
+	Called from -  form1.command1.click line 13  {h:\contract\2014\italianpiza\card2.sct h:\contract\2014\italianpiza\card2.sct}
+
+
+Fatal error: Exception code=C0000005 @ 01/26/15 05:52:45 PM. Error log file: D:\VFP9\vfp9err.log
+
+
+Fatal error: Exception code=C0000094 @ 26/02/2015 04:22:47 PM. Error log file: D:\VFP9\vfp9err.log
+	Called from -  form1.code1.lostfocus line 11  {h:\contract\2013\autostore\code.sct h:\contract\2013\autostore\code.sct}
+
+
+Fatal error: Exception code=C0000094 @ 26/02/2015 04:23:14 PM. Error log file: D:\VFP9\vfp9err.log
+	Called from -  form1.code1.lostfocus line 11  {h:\contract\2013\autostore\code.sct h:\contract\2013\autostore\code.sct}
+
+
+Fatal error: Exception code=C0000094 @ 26/02/2015 04:24:24 PM. Error log file: D:\VFP9\vfp9err.log
+	Called from -  form1.code1.lostfocus line 11  {h:\contract\2014\saboorautos\code.sct h:\contract\2014\saboorautos\code.sct}
+
+
+Fatal error: Exception code=C0000094 @ 26/02/2015 04:25:21 PM. Error log file: D:\VFP9\vfp9err.log
+	Called from -  form1.code1.lostfocus line 12  {h:\contract\2014\saboorautos\bcsale1.sct h:\contract\2014\saboorautos\bcsale1.sct}
+
+
+Fatal error: Exception code=C0000005 @ 14/05/2015 10:51:32 AM. Error log file: D:\VFP9\vfp9err.log
+	Called from -  choice1 line 6  {H:\CONTRACT\2015\NEWFASHION\namps.prg namps.fxp}
+	Called from -  form1.code1.lostfocus line 23  {h:\contract\2015\newfashion\bcsale1.sct h:\contract\2015\newfashion\bcsale1.sct}
+
+
+Fatal error: Exception code=C0000005 @ 05/20/15 01:15:28 PM. Error log file: D:\VFP9\vfp9err.log
+	Called from -  9mv50013 line 0  { d:\contract\ittefaq\digital.app}
+
+
+Fatal error: Exception code=C0000005 @ 05/20/15 01:15:40 PM. Error log file: D:\VFP9\vfp9err.log
+	Called from -  9mv50013 line 0  { d:\contract\ittefaq\digital.app}
+
+
+Fatal error: Exception code=C0000005 @ 26/05/2015 06:39:18 PM. Error log file: D:\VFP9\vfp9err.log
+	Called from -  choice1 line 6  {H:\CONTRACT\2015\MAKKAHMART\namps.prg namps.fxp}
+	Called from -  form1.code1.lostfocus line 24  {h:\contract\2015\makkahmart\bcsale1.sct h:\contract\2015\makkahmart\bcsale1.sct}
+
+
+Fatal error: Exception code=C0000094 @ 02/06/2015 02:29:09 PM. Error log file: D:\VFP9\vfp9err.log
+	Called from -  form1.command11.click line 25  {h:\contract\2015\pakvillas\scrform.sct h:\contract\2015\pakvillas\scrform.sct}
+
+
+Fatal error: Exception code=C0000094 @ 02/06/2015 02:29:45 PM. Error log file: D:\VFP9\vfp9err.log
+	Called from -  form1.command11.click line 25  {d:\contract\kissan\crform.sct d:\contract\kissan\crform.sct}
+
+
+Fatal error: Exception code=C0000094 @ 02/06/2015 02:33:17 PM. Error log file: D:\VFP9\vfp9err.log
+	Called from -  form1.command5.click line 27  {h:\contract\2015\tanveerbrothers\saleform.sct h:\contract\2015\tanveerbrothers\saleform.sct}
+
+
+Fatal error: Exception code=C0000005 @ 09/06/2015 04:29:53 PM. Error log file: D:\VFP9\vfp9err.log
+	Called from -  form1.command4.click line 9  {h:\contract\2015\crossfit\scan.sct h:\contract\2015\crossfit\scan.sct}
+
+
+Fatal error: Exception code=C0000005 @ 09/06/2015 04:58:09 PM. Error log file: D:\VFP9\vfp9err.log
+	Called from -  form1.command4.click line 9  {h:\contract\2015\crossfit\scan.sct h:\contract\2015\crossfit\scan.sct}
+
+
+Fatal error: Exception code=C0000005 @ 09/06/2015 04:59:38 PM. Error log file: D:\VFP9\vfp9err.log
+
+
+Fatal error: Exception code=C0000005 @ 09/06/2015 05:08:20 PM. Error log file: D:\VFP9\vfp9err.log
+
+
+Fatal error: Exception code=C0000005 @ 09/06/2015 07:19:27 PM. Error log file: D:\VFP9\vfp9err.log
+
+
+Fatal error: Exception code=C0000005 @ 09/06/2015 08:06:45 PM. Error log file: D:\VFP9\vfp9err.log
+
+
+Fatal error: Exception code=C0000005 @ 10/06/2015 09:40:19 AM. Error log file: D:\VFP9\vfp9err.log
+
+
+Fatal error: Exception code=C0000005 @ 10/06/2015 10:13:21 AM. Error log file: D:\VFP9\vfp9err.log
+
+
+Fatal error: Exception code=C0000005 @ 10/06/2015 10:16:17 AM. Error log file: D:\VFP9\vfp9err.log
+
+
+Fatal error: Exception code=C0000005 @ 10/06/2015 10:17:44 AM. Error log file: D:\VFP9\vfp9err.log
+
+
+Fatal error: Exception code=C0000005 @ 10/06/2015 10:25:37 AM. Error log file: D:\VFP9\vfp9err.log
+
+
+Fatal error: Exception code=C0000005 @ 10/06/2015 10:31:37 AM. Error log file: D:\VFP9\vfp9err.log
+
+
+Fatal error: Exception code=C0000005 @ 10/06/2015 01:03:15 PM. Error log file: D:\VFP9\vfp9err.log
+	Called from -  form1.command1.click line 16  {h:\contract\2015\crossfit\scan.sct h:\contract\2015\crossfit\scan.sct}
+
+
+Fatal error: Exception code=C0000005 @ 10/06/2015 01:16:34 PM. Error log file: D:\VFP9\vfp9err.log
+	Called from -  form1.command1.click line 17  {h:\contract\2015\crossfit\scan.sct h:\contract\2015\crossfit\scan.sct}
+
+
+Fatal error: Exception code=C0000005 @ 10/06/2015 03:02:37 PM. Error log file: D:\VFP9\vfp9err.log
+	Called from -  form1.command1.click line 8  {h:\contract\2014\gehwara\scan.sct h:\contract\2014\gehwara\scan.sct}
+
+
+Fatal error: Exception code=C0000005 @ 10/06/2015 03:06:26 PM. Error log file: D:\VFP9\vfp9err.log
+
+
+Fatal error: Exception code=C0000005 @ 10/06/2015 03:10:47 PM. Error log file: D:\VFP9\vfp9err.log
+
+
+Fatal error: Exception code=C0000005 @ 10/06/2015 03:16:59 PM. Error log file: D:\VFP9\vfp9err.log
+
+
+Fatal error: Exception code=C0000005 @ 10/06/2015 03:20:19 PM. Error log file: D:\VFP9\vfp9err.log
+
+
+Fatal error: Exception code=C0000005 @ 10/06/2015 03:23:32 PM. Error log file: D:\VFP9\vfp9err.log
+
+
+Fatal error: Exception code=C0000005 @ 10/06/2015 03:25:22 PM. Error log file: D:\VFP9\vfp9err.log
+
+
+Fatal error: Exception code=C0000005 @ 10/06/2015 03:33:19 PM. Error log file: D:\VFP9\vfp9err.log
+
+
+Fatal error: Exception code=C0000005 @ 10/06/2015 03:38:57 PM. Error log file: D:\VFP9\vfp9err.log
+
+
+Fatal error: Exception code=C0000005 @ 10/06/2015 03:50:59 PM. Error log file: D:\VFP9\vfp9err.log
+
+
+Fatal error: Exception code=C0000005 @ 18/08/2015 04:53:04 PM. Error log file: D:\VFP9\vfp9err.log
+	Called from -  form1.command11.click line 24  {g:\contract\2015\kotlicoldstore\psform.sct g:\contract\2015\kotlicoldstore\psform.sct}
+
+
+Fatal error: Exception code=C0000094 @ 20/08/2015 11:49:44 AM. Error log file: D:\VFP9\vfp9err.log
+	Called from -  form1.mlc1.lostfocus line 7  {g:\contract\2015\hafizcotton\pstform.sct g:\contract\2015\hafizcotton\pstform.sct}
+
+
+Fatal error: Exception code=C0000094 @ 20/08/2015 11:58:27 AM. Error log file: D:\VFP9\vfp9err.log
+	Called from -  form1.embossedfield8.lostfocus line 7  {g:\contract\2015\hafizcotton\seedpur.sct g:\contract\2015\hafizcotton\seedpur.sct}
+
+
+Fatal error: Exception code=C0000094 @ 20/08/2015 12:10:17 PM. Error log file: D:\VFP9\vfp9err.log
+	Called from -  form1.code1.lostfocus line 8  {g:\contract\2015\hafizcotton\pwaste.sct g:\contract\2015\hafizcotton\pwaste.sct}
+
+
+Fatal error: Exception code=C0000094 @ 20/08/2015 12:15:03 PM. Error log file: D:\VFP9\vfp9err.log
+	Called from -  form1.embossedfield15.lostfocus line 9  {g:\contract\2015\hafizcotton\lintsale.sct g:\contract\2015\hafizcotton\lintsale.sct}
+
+
+Fatal error: Exception code=C0000094 @ 20/08/2015 12:25:12 PM. Error log file: D:\VFP9\vfp9err.log
+	Called from -  form1.embossedfield15.lostfocus line 9  {g:\contract\2015\hafizcotton\oilsale.sct g:\contract\2015\hafizcotton\oilsale.sct}
+
+
+Fatal error: Exception code=C0000094 @ 20/08/2015 12:26:23 PM. Error log file: D:\VFP9\vfp9err.log
+	Called from -  form1.embossedfield15.lostfocus line 9  {g:\contract\2015\hafizcotton\oilcake.sct g:\contract\2015\hafizcotton\oilcake.sct}
+
+
+Fatal error: Exception code=C0000094 @ 20/08/2015 12:32:41 PM. Error log file: D:\VFP9\vfp9err.log
+	Called from -  form1.mlc1.lostfocus line 7  {g:\contract\2015\hafizcotton\pstform.sct g:\contract\2015\hafizcotton\pstform.sct}
+
+
+Fatal error: Exception code=C0000094 @ 20/08/2015 12:33:10 PM. Error log file: D:\VFP9\vfp9err.log
+	Called from -  form1.mlc1.lostfocus line 7  {g:\contract\2015\hafizcotton\pstform.sct g:\contract\2015\hafizcotton\pstform.sct}
+
+
+Fatal error: Exception code=C0000005 @ 02/09/2015 03:57:53 PM. Error log file: D:\VFP9\vfp9err.log
+
+
+Fatal error: Exception code=C0000005 @ 29/09/2015 09:49:16 PM. Error log file: D:\VFP9\vfp9err.log
+	Called from -  choice1 line 6  {h:\contract\2013\autostore\mcomm.prg g:\contract\2015\syedgilani\mcomm.fxp}
+	Called from -  form1.text4.lostfocus line 19  {g:\contract\2015\syedgilani\code.sct g:\contract\2015\syedgilani\code.sct}
+
+
+Fatal error: Exception code=C0000094 @ 21/05/2016 03:02:54 PM. Error log file: D:\VFP9\vfp9err.log
+	Called from -  form1.text2.lostfocus line 7  {g:\contract\2015\tareen\tareenpotato\clrep.sct g:\contract\2015\tareen\tareenpotato\clrep.sct}
+
+
+Fatal error: Exception code=C0000094 @ 21/05/2016 03:36:11 PM. Error log file: D:\VFP9\vfp9err.log
+	Called from -  form1.command13.click line 8  {g:\contract\2016\transocare\code1.sct g:\contract\2016\transocare\code1.sct}
+
+
+Fatal error: Exception code=C0000094 @ 21/05/2016 04:34:10 PM. Error log file: D:\VFP9\vfp9err.log
+	Called from -  form1.mlc1.lostfocus line 7  {g:\contract\2016\artradersswl\saleform.sct g:\contract\2016\artradersswl\saleform.sct}
+
+
+Fatal error: Exception code=C0000005 @ 07/15/16 12:01:15 PM. Error log file: D:\VFP9\vfp9err.log
+	Called from -  9mv50013 line 0  { d:\contract\ittefaq\digital.app}
+
+
+Fatal error: Exception code=C0000005 @ 22/08/2016 11:30:07 AM. Error log file: D:\VFP9\vfp9err.log
+	Called from -  choice1 line 6  {H:\CONTRACT\2015\DINFOODS\namps.prg namps.fxp}
+	Called from -  form1.code1.lostfocus line 21  {h:\contract\2015\dinfoods\saleform.sct h:\contract\2015\dinfoods\saleform.sct}
+
+
+Fatal error: Exception code=C0000005 @ 15/12/2016 06:04:28 PM. Error log file: D:\VFP9\vfp9err.log
+	Called from -  choice1 line 6  {d:\contract\almrice\omm.prg h:\contract\2016\fazalerabbi\omm.fxp}
+	Called from -  form1.embossedfield26.lostfocus line 17  {h:\contract\2016\fazalerabbi\paddy.sct h:\contract\2016\fazalerabbi\paddy.sct}
+
+
+Fatal error: Exception code=C0000005 @ 10. Error log file: D:\VFP9\vfp9err.log
+	Called from -  form1.command11.click line 26  {g:\contract\2017\chemfert(pvt)\saleform.sct g:\contract\2017\chemfert(pvt)\saleform.sct}
+
+
+Fatal error: Exception code=C0000005 @ 12/12/2017 02:17:49 PM. Error log file: D:\VFP9\vfp9err.log
+	Called from -  choice1 line 6  {f:\contract\rbpak\nam1.prg g:\contract\2014\shahensha\nam1.fxp}
+	Called from -  form1.mlc1.lostfocus line 23  {g:\contract\2014\shahensha\crform.sct g:\contract\2014\shahensha\crform.sct}
+
+
+Fatal error: Exception code=C0000005 @  21:09:27. Error log file: D:\VFP9\vfp9err.log
+
+
+Fatal error: Exception code=C0000005 @ 18/02/2018 09:07:57 PM. Error log file: D:\VFP9\vfp9err.log
+
+
+Fatal error: Exception code=C0000005 @ 23/04/2018 06:40:43 PM. Error log file: D:\VFP9\vfp9err.log
+	Called from -  choice1 line 6  {G:\CONTRACT\2018\KHUDABUKHSHAZAAN\namps.prg namps.fxp}
+	Called from -  form1.code1.lostfocus line 23  {g:\contract\2018\khudabukhshazaan\bcsale1.sct g:\contract\2018\khudabukhshazaan\bcsale1.sct}
+
+
+Fatal error: Exception code=C0000094 @ 14/06/2018 12:14:15 PM. Error log file: D:\VFP9\vfp9err.log
+
+
+Fatal error: Exception code=C0000094 @ 14/06/2018 12:14:26 PM. Error log file: D:\VFP9\vfp9err.log
+
+
+Fatal error: Exception code=C0000005 @ 22/06/2018 10:13:21 PM. Error log file: D:\VFP9\vfp9err.log
+
+
+Fatal error: Exception code=C0000005 @ 04/11/2018 10:12:21 PM. Error log file: D:\VFP9\vfp9err.log
+	Called from -  choice1 line 6  {H:\CONTRACT\2018\BARCODEMUSTFA\nam1.prg nam1.fxp}
+	Called from -  form1.mlc1.lostfocus line 23  {h:\contract\2018\barcodemustfa\cpform.sct h:\contract\2018\barcodemustfa\cpform.sct}
+
+
+Fatal error: Exception code=C0000005 @  13:26:59. Error log file: D:\VFP9\vfp9err.log
+	Called from -  form1.command5.click line 25  {h:\contract\2018\chohanfilling\fgform.sct h:\contract\2018\chohanfilling\fgform.sct}
+
+
+Fatal error: Exception code=C0000005 @  10:52:13. Error log file: D:\VFP9\vfp9err.log
+	Called from -  form1.command11.click line 22  {h:\contract\2016\styletailor\press.sct h:\contract\2016\styletailor\press.sct}
+
+
+Fatal error: Exception code=C0000005 @ 12/12/2018 10:43:11 AM. Error log file: D:\VFP9\vfp9err.log
+
+
+Fatal error: Exception code=C0000005 @ 30/12/2018 04:50:23 PM. Error log file: D:\VFP9\vfp9err.log
+	Called from -  choice1 line 6  {G:\CONTRACT\2018\PIRZADASHERMUHAMMADCS\nam1.prg nam1.fxp}
+	Called from -  form1.text2.lostfocus line 12  {g:\contract\2018\pirzadashermuhammadcs\clrep.sct g:\contract\2018\pirzadashermuhammadcs\clrep.sct}
+
+
+Fatal error: Exception code=C0000005 @ 02/01/2019 10:45:23 AM. Error log file: D:\VFP9\vfp9err.log
+
+
+Fatal error: Exception code=C0000005 @ 12/02/2019 12:02:37 PM. Error log file: D:\VFP9\vfp9err.log
+	Called from -  form1.mlc1.lostfocus line 9  {d:\contract\2015\bismillah\saleform.sct d:\contract\2015\bismillah\saleform.sct}
+
+
+Fatal error: Exception code=C0000005 @ 12/03/2019 04:10:49 PM. Error log file: D:\VFP9\vfp9err.log
+	Called from -  choice1 line 6  {D:\CONTRACT\MJ\namps1.prg namps1.fxp}
+	Called from -  form1.pageframe1.add.command8.click line 489  {d:\contract\mj\gmain.sct d:\contract\mj\gmain.sct}
+
+
+Fatal error: Exception code=C0000005 @ 22/04/2019 05:55:43 PM. Error log file: D:\VFP9\vfp9err.log
+	Called from -  choice1 line 6  {D:\CONTRACT\2014\TOPSPOT\namps.prg namps.fxp}
+	Called from -  form1.code1.lostfocus line 23  {d:\contract\2014\topspot\bcsale1.sct d:\contract\2014\topspot\bcsale1.sct}

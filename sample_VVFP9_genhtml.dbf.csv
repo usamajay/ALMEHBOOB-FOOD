@@ -1,0 +1,30 @@
+﻿TYPE,ID,LINKS,TEXT,DESC,CLASSNAME,CLASSLIB,MODULE,PICTURE,PROPERTIES,HTML,STYLE,SCRIPT,PRESCRIPT,GENSCRIPT,POSTSCRIPT,HEADSTART,HEADEND,BODYSTART,BODYEND,UPDATED,COMMENT,USER,VERSION,SAVE
+DEFAULT,VFPDefault,,,,,,,listview.bmp,,,,,"_oHTML.Body.bgColor=""silver""
+",,,,,,,,,,1.4,
+LAYOUT,ListTable,GlobalTableStyle,Static List View,"This style displays data formatted in a tabular layout with field column headers. 
+
+This style is recommended for read-only/display type web pages involving small to moderate amounts of data. The output generated is static so it can be used with most web browsers.
+",,,,listview.bmp,Options=ListOptions,,,,"_oHTML.nTableStyle=0
+_oHTML.Body.bgColor=""silver""
+",,,,,,,,,,,
+LAYOUT,DetailTable,GlobalTableStyle,Static Detail View,"This style displays data formatted in a columnar layout with each record separated by a line.
+
+This style is recommended for read-only/display type web pages involving small to moderate amounts of data. The output generated is static so it can be used with most web browsers.
+",,,,detailview.bmp,Options=StaticOptions,,,,"_oHTML.nTableStyle=1
+_oHTML.Body.bgColor=""silver""
+",,,,,,,,,,,
+LAYOUT,TabCtlList,GlobalTableStyle,Tabular List,"This style displays data formatted in a tabular layout with column headers that provide sorting capabilities.  Buttons are also provided to navigate through pages of data.
+
+This style is recommended for read-only/display type web pages involving small to moderate amounts of data.
+
+It uses the Tabular Data Control which requires Microsoft Internet Explorer 4.0 or higher. Memo fields are not supported with this layout.",_TabDataControl,"(IIF(VERSION(2)=0,"""",HOME()+""FFC\"")+""_HTMLSty.vcx"")",,tablist.bmp,Options=TabListOptions,,,,"_oHTML.nTableStyle=100
+_oHTML.Body.bgColor=""silver""
+",,,,,,,,,,,
+LAYOUT,TabCtlDetail,"GlobalTableStyle
+",Tabular Detail,"This style displays data formatted in a columnar layout.  Navigation buttons are also provided to navigate through individual records.
+
+This style is recommended for read-only/display type web pages involving small to moderate amounts of data.
+
+It uses the Tabular Data Control which requires Microsoft Internet Explorer 4.0 or higher. Memo fields are not supported with this layout.",_TabDataControl,"(IIF(VERSION(2)=0,"""",HOME()+""FFC\"")+""_HTMLSty.vcx"")",,tabdetail.bmp,Options=TabDetailOptions,,,,"_oHTML.nTableStyle=101
+_oHTML.Body.bgColor=""silver""
+",,,,,,,,,,,
